@@ -37,10 +37,13 @@ try
 
     $dbh         = null;
 
+if($pro_gazou_name_old !=$pro_gazou_name)
+{
     if($pro_gazou_name_old !='')
     {
         unlink('./gazou/'.$pro_gazou_name_old);
     }
+}
 
     print '修正しました。<br />';
 
