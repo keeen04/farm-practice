@@ -5,8 +5,8 @@ try
 require_once('C:\xampp\htdocs\common\common.php');
 
 $post=sanitize($_POST);
-    $staff_code=$POST['code'];
-    $staff_pass=$POST['pass'];
+    $staff_code=$post['code'];
+    $staff_pass=$post['pass'];
 
 
 
